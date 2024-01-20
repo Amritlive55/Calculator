@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css".css>
+  </head>
+  <body>
+	<script src="Calculator.js"></script><br><br>
+  
+<div id="calculator">
+  <h1> Calculator made by Amrit 
+  <button class="btn" onclick="voice()">Listen </button></h1>
+<br>
+  <!--<br>
+  <div id="id1">
+    <input type="number" id="First" step="any"> 
+    <select id="op">
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+    </select>
+    <input type="number" id="Second" step="any"> 
+    </div>
+    <br>
+    <br>
+
+    <div id="id2">
+     <button onclick="Calculate()"> Calculate</button>
+     <input type="" id="res" readonly=""/>
+     </div>-->
+
+ <div class="row" id="id1">
+     <input type="text" id="display" disabled>
+     <button class="btn" onclick="ClearDisplay()">C</button>
+     </div>
+     <div class="row">
+ <button class="btn" onclick="displayValue(7)">7 </button>
+ <button class="btn" onclick="displayValue(8)">8 </button>
+ <button class="btn" onclick="displayValue(9)">9</button>
+ <button class="btn" onclick="displayValue('*')">* </button>
+ </div>
+
+ <div class="row">
+ <button class="btn" onclick="displayValue(4)">4 </button>
+ <button class="btn" onclick="displayValue(5)">5</button>
+ <button class="btn" onclick="displayValue(6)">6</button>
+ <button class="btn" onclick="displayValue('/')">/</button>
+ </div>
+
+ <div class="row">
+ <button class="btn" onclick="displayValue(1)">1</button>
+ <button class="btn" onclick="displayValue(2)">2</button>
+ <button class="btn" onclick="displayValue(3)">3</button>
+ <button class="btn" onclick="displayValue('+')">+</button>
+ </div>
+
+ <div class="row">
+ <button class="btn" onclick="displayValue(0)">0</button>
+ <button class="btn" onclick="displayValue('.')">.</button>
+ <button class="btn" onclick="Result('=')">=</button>
+ <button class="btn" onclick="displayValue('-')">-</button>
+ </div>
+
+</div>
+
+
+
+  </body>
+</html>
